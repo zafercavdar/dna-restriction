@@ -62,7 +62,7 @@ public class RestrictionEnzymes extends ConsoleProgram{
 	{
 		BufferedReader rd = null;
 		try {
-			rd = new BufferedReader(new FileReader("enzymeList2.txt"));
+			rd = new BufferedReader(new FileReader("enzymeList.txt"));
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
